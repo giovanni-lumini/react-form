@@ -3,3 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+.btn-trash {
+  padding: 0rem 0.5rem;
+}

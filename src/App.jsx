@@ -58,7 +58,9 @@ function App() {
         <ul className="list-group">
           {articles.map((article, index) =>
             <li key={index} className="list-group-item d-flex justify-content-between">{article}
-              <button className="btn-trash" data-index={index} onClick={handleTrashArticleClick}>Delete title</button>
+              <button className="btn-trash" data-index={index} onClick={handleTrashArticleClick}>
+                DELETE
+              </button>
             </li>
           )}
         </ul>
